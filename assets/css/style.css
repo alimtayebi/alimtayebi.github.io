@@ -11121,7 +11121,8 @@ body.template-color-1 {
   }
 }
 .home-sticky .rn-header.header--fixed.sticky {
-  background-color: transparent;
+	
+  background-color: #000000de !important;
   box-shadow: none;
   position: fixed;
   backdrop-filter: none;
