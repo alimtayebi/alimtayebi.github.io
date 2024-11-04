@@ -40,45 +40,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
 :root {
-  --color-primary: #ff014f;
-  --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
-  --color-gray: #f6f6f6;
-  --color-subtitle: #f9004d;
-  --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
-  --background-color-2: #212428;
-  --shadow-1: 10px 10px 19px #1c1e22,
-      -10px -10px 19px #262a2e;
-  --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
-  --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-  --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-  --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
-  --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
-  --color-heading: #ffffff;
-  --color-heading-wv: #1e2125;
-  --color-body: #878e99;
-  --color-body-white: #3c3e41;
-  --color-lightn: #c4cfde;
-  --color-midgray: #878787;
-  --color-light: #E4E6EA;
-  --color-lighter: #CED0D4;
-  --color-lightest: #F0F2F5;
-  --color-border: #E6E6E6;
-  --color-white: #ffffff;
-  --color-white-75: rgba(255, 255, 255, 0.75);
-  --color-success: #3EB75E;
-  --color-danger: #FF0003;
-  --color-warning: #FF8F3C;
-  --color-info: #1BA2DB;
-  --color-facebook: #3B5997;
-  --color-twitter: #1BA1F2;
-  --color-youtube: #ED4141;
-  --color-linkedin: #0077B5;
-  --color-pinterest: #E60022;
-  --color-instagram: #C231A1;
-  --color-vimeo: #00ADEF;
-  --color-twitch: #6441A3;
-  --color-discord: #7289da;
+  --color-primary: #ff007f; /* A brighter pink for better visibility on dark background */
+  --color-secondary: #2b2d31; /* Darker background for secondary elements */
+  --color-tertiary: #0d1013; /* Keeping this as is for dark sections */
+  --color-gray: #b0b3b7; /* Lighter gray for text to contrast against dark */
+  --color-subtitle: #ff5a99; /* Slightly brighter pink for subtitles */
+  --background-color-1: linear-gradient(145deg, #1e2024, #23272b); /* Dark gradient */
+  --background-color-2: #181b1e; /* Even darker background for elements */
+  --shadow-1: 10px 10px 19px rgba(0, 0, 0, 0.7),
+      -10px -10px 19px rgba(0, 0, 0, 0.5); /* More pronounced shadows */
+  --shadow-2: inset 21px 21px 19px rgba(0, 0, 0, 0.8), inset -21px -21px 19px rgba(0, 0, 0, 0.4);
+  --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.9) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.1) inset;
+  --shadow-white-3: 5px 5px 15px rgba(255, 255, 255, 0.1), -5px -5px 15px rgba(0, 0, 0, 0.2);
+  --gradient-box-w: linear-gradient(145deg, #2b2d31, #1e2024); /* Dark gradient for boxes */
+  --gradient-red-hover: linear-gradient(145deg, #ff007f, #d11414); /* Brighter red for hover */
+  --color-heading: #ffffff; /* White for headings */
+  --color-heading-wv: #d1d9e6; /* Light color for darker text */
+  --color-body: #e0e0e0; /* Lighter gray for body text */
+  --color-body-white: #ffffff; /* White for body text on dark background */
+  --color-lightn: #a0a0a0; /* Light gray for lighter elements */
+  --color-midgray: #b0b3b7; /* Mid gray for better visibility */
+  --color-light: #e4e6ea; /* Keeping light color for highlights */
+  --color-lighter: #ced0d4; /* Lighter gray for accents */
+  --color-lightest: #ffffff; /* Use white for the lightest elements */
+  --color-border: #2e2e2e; /* Darker border color */
+  --color-white: #ffffff; /* White for text */
+  --color-white-75: rgba(255, 255, 255, 0.75); /* Semi-transparent white */
+  --color-success: #3EB75E; /* Success color */
+  --color-danger: #FF0003; /* Danger color */
+  --color-warning: #FF8F3C; /* Warning color */
+  --color-info: #1BA2DB; /* Info color */
+  --color-facebook: #3B5997; /* Facebook color */
+  --color-twitter: #1BA1F2; /* Twitter color */
+  --color-youtube: #ED4141; /* YouTube color */
+  --color-linkedin: #0077B5; /* LinkedIn color */
+  --color-pinterest: #E60022; /* Pinterest color */
+  --color-instagram: #C231A1; /* Instagram color */
+  --color-vimeo: #00ADEF; /* Vimeo color */
+  --color-twitch: #6441A3; /* Twitch color */
+  --color-discord: #7289DA; /* Discord color */
   --p-light: 300;
   --p-regular: 400;
   --p-medium: 500;
@@ -109,6 +109,7 @@
   --h5: 30px;
   --h6: 20px;
 }
+
 
 * {
   box-sizing: border-box;
