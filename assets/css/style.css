@@ -115,6 +115,10 @@
   box-sizing: border-box;
 }
 
+header {
+	background-color: #000000de !important;
+}
+
 html {
   margin: 0;
   padding: 0;
