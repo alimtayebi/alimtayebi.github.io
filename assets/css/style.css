@@ -10978,7 +10978,7 @@ body.template-color-1 {
 }
 
 .header-wrapper {
-	background-color: #000000de !important;
+
   height: 122px;
   padding: 0 64px;
 }
@@ -11122,7 +11122,6 @@ body.template-color-1 {
 }
 .home-sticky .rn-header.header--fixed.sticky {
 	
-  background-color: #000000de !important;
   box-shadow: none;
   position: fixed;
   backdrop-filter: none;
