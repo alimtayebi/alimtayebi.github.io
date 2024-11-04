@@ -125,7 +125,7 @@ html {
 }
 
 body {
-	background-color: black !important;
+	background-color: #000000de !important;
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
