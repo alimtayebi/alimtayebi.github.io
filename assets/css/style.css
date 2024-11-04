@@ -115,9 +115,7 @@
   box-sizing: border-box;
 }
 
-header {
-	background-color: #000000de !important;
-}
+
 
 html {
   margin: 0;
@@ -10980,6 +10978,7 @@ body.template-color-1 {
 }
 
 .header-wrapper {
+	background-color: #000000de !important;
   height: 122px;
   padding: 0 64px;
 }
