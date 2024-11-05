@@ -6204,7 +6204,7 @@ img {
   -ms-interpolation-mode: bicubic;
   border: 0;
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
 }
 
@@ -11258,7 +11258,7 @@ body.template-color-1 {
   }
 }
 .sticky .header-wrapper .logo img {
-  max-width: 90%;
+  max-width: 30%;
 }
 
 .logo a {
